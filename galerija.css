@@ -1,0 +1,86 @@
+#sve{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	justify-content: space-around;
+}
+#burek img{
+	height: 500px;
+	width: 500px;
+}
+#pasta img{
+	height: 500px;
+	width: 500px;
+}
+#pizza img{
+	height: 500px;
+	width: 500px;
+} 
+#stake img{
+	height: 500px;
+	width: 500px;
+}
+#lobster img{
+	height: 500px;
+	width: 500px;
+}
+#sufle img{
+	height: 500px;
+	width: 500px;
+}
+#burek, #pasta, #pizza, #stake, #lobster, #sufle{
+	padding: 50px;
+	font-size: 14pt;
+}
+h1, h3{
+	text-align: center;
+	padding: 30px;
+	color: white;
+}
+#naslov{
+	border: solid 1px;
+	background-image: url(http://www.flashbarsalou.com/wp-content/uploads/2015/02/flashbar-homepage-pizza-blur.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#dole a{
+	text-decoration: none;
+	color: white;
+}
+#dole{
+	font-size: 20pt;
+	padding: 30px;
+	text-align: center;
+}
+body{
+	background-image: url(https://images5.alphacoders.com/772/772324.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#napocetnu{
+	font-size: 20pt;
+	padding: 10px;
+	padding-left: 50px;
+}
+#napocetnu a{
+	text-decoration: none;
+	color: white;
+	border: solid 1px;
+	padding: 10px;
+	border-color: white;
+}
+#napocetnu :hover{
+	color: blue;
+}
+.prva2{
+	color: white;
+}
+#burek img{
+	transition: 0.5s;
+}
+#sve p{
+	font-size: 16pt;
+	text-align: center;
+}
